@@ -1,2 +1,14 @@
 # PaperTrading_Ronghang
-PaperTrading_Ronghang
+
+CTP 对接融航的 Paper Trading.
+
+## Features
+
+- 市价单：每隔 30 分钟，查询一下当前持仓，平仓后，下一个市价单，
+- 方向不变：如果信号如上次信号相同，持仓保持不变
+
+## Todo
+
+- 限价单：拿到计算时的价格，挂限价单
+- 撤单：一直挂着，直到下一个 30 min 周期
+- 未成交：如果部分成交，通过查询仓位的方式平仓
